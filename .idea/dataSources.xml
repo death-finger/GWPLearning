@@ -7,5 +7,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/chitchat</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="chitchat@10.249.77.150" uuid="23876026-d9d6-4e91-9ac8-6a8f3b0fcc90">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://10.249.77.150:5432/chitchat</jdbc-url>
+    </data-source>
   </component>
 </project>
